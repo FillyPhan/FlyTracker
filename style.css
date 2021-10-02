@@ -1,0 +1,86 @@
+body{
+    background-color:honeydew;
+}
+
+button{
+    margin-left:50vw;
+}
+
+
+.container{
+    width:100vw;
+    height: 100vh;
+    display: flex;
+}
+
+#circle{
+    width: 500px;
+    height: 500px;
+    background-color:greenyellow;
+    margin:auto auto;
+    border: 5px solid black;
+    border-radius: 50% 50% 10% 10%;
+
+}
+.eyes{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+width: 100%;
+text-align: center;
+
+
+}
+
+.eye{
+width:240px;
+height: 240px;
+background: #fff;
+display: inline-block;
+margin: 40px;
+border-radius: 50%;
+position: relative;
+overflow: hidden;
+border: 4px solid black;
+}
+
+.ball{
+width: 40px;
+height: 40px;
+background: #000;
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%, -50%);
+border-radius: 50%;
+border: 15px solid rgb(0, 255, 234);
+}
+
+.ball2{
+width: 40px;
+height: 40px;
+background: #000;
+position: absolute;
+top: 50%;
+left:50%;
+transform: translate(-50%, -50%);
+border-radius: 50%;
+border: 15px solid rgb(0, 255, 234);
+}
+
+.mouth{
+    position: absolute;
+    z-index: 1;
+    top:500px;
+    left: 0;
+    right: 0;
+    height: 110px;
+    width: 200px;
+    margin: 0 auto;
+    border-bottom: 50px solid black;
+    border-radius: 100%;
+
+}
+body, html {
+cursor: url(flycursor.png), pointer;
+}
