@@ -71,7 +71,7 @@ border: 15px solid rgb(0, 255, 234);
 .mouth{
     position: absolute;
     z-index: 1;
-    top:500px;
+    top:200px;
     left: 0;
     right: 0;
     height: 110px;
